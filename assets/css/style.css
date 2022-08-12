@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.center{
+    max-width: 950px;
+     margin: 0 auto;
+    padding: 0 2%;
+}
+
+section.back_color{
+    background-color: #F0F2F5;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.logo {
+    float: left;
+}
+.logo p{
+    max-width: 350px;
+    font-weight: 540;
+    font-size: 21px;
+    word-wrap: break-word;
+    margin-left: 37px;
+
+}
+.form-box{
+    margin-top: 40px;
+    height: 400px;
+    width: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 4px 7px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.form-box input[type=email],.form-box input[type=password] {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    border: 2px solid #F0F2F5;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  
+}
+.form-box input[type=email]:focus,.form-box input[type=password]:focus{
+    outline: 0;
+    font-size: 21px;
+    padding: 10px;
+}
+.form-box input[type=email]::placeholder,.form-box input[type=password]::placeholder{
+   font-size: 21px;
+   padding: 10px;
+   font-weight: normal;
+}
+
+/* =================== INPUT SUBMIT======================== */
+
+.form-box input[type=submit] {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    border: 2px solid #F0F2F5;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #1877F2;
+    color: white;
+    font-size: 21px;
+}
+
+.form-box a{
+    text-decoration: none;
+    color: #1877F2;
+}
+.form-box hr{
+   margin: 30px;
+}
+
+ .form-box .form2 input[type=submit]{
+    width: 50%;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    border: 2px solid #F0F2F5;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color:  #42B72A;
+    color: white;
+    font-size: 21px;
+}
+.block{
+   float: right;
+}
+.block p{
+   margin-top: 20px;
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .colorP{
+    font-weight: bold;
+ }
+
+ footer{
+    color: #438af6;
+    margin-top: 50px;
+ }
+section.firstLink{
+    max-width: 740px;
+}
+
+ div > .firstLink li{
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+ }
+ div > .firstLink a{
+    text-decoration: none;
+    color: #858585;
+ }
+ div > .firstLink button{
+    cursor: pointer;
+    
+ }
+
+ /*  SECTION SECONDLINK */
+
+.bottom  hr{
+    margin: 15px 0;
+    max-width: 900px;
+    width: 100%;
+}
+
+div > .secondLink {
+    margin-bottom: 15px;
+}
+
+ div > .secondLink li{
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+ }
+ div > .secondLink a{
+    text-decoration: none;
+    color: #858585;
+ }
+ div > .secondLink button{
+    cursor: pointer;
+    
+ }
